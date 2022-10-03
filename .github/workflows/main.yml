@@ -8,7 +8,7 @@ jobs:
     runs-on: ${{matrix.os}}
     name: jfr-runtime-action-pipeline
     steps:
-      - uses: actions/checkout@v2
+      - uses: Abhilash-1201/Demo_repository@master
       - name : Setup Jenkins
         uses:
           jenkinsci/jfr-runtime-action@master
